@@ -8,8 +8,10 @@ public class Exercicio1 {
 	public static void main(String[] args) {
 		float salario, abono, novoSalario;
 		
+		Locale.setDefault(Locale.US);
+		
 		Scanner leia = new Scanner(System.in);
-		leia.useLocale(Locale.US);
+	
 		
 		System.out.println("Digite o Salário: ");
 		salario = leia.nextFloat();

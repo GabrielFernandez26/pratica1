@@ -7,9 +7,9 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 		float n1, n2, n3, n4, diferenca;
+		Locale.setDefault(Locale.US);
 		
 		Scanner leia = new Scanner(System.in);
-		leia.useLocale(Locale.US);
 		
 		System.out.println("Inisira o primeiro numero: ");
 		n1 = leia.nextFloat();

@@ -7,9 +7,9 @@ public class Exercicio3 {
 
 	public static void main(String[] args) {
 		float salarioBruto, salarioLiquido, adicionalNoturno, horasExtras, descontos;
+		Locale.setDefault(Locale.US);
 		
 		Scanner leia = new Scanner(System.in);
-		leia.useLocale(Locale.US);
 		
 		System.out.println("Insira o salário bruto: ");
 		salarioBruto = leia.nextFloat();

@@ -7,9 +7,9 @@ public class Exercicio2 {
 
 	public static void main(String[] args) {
 		float nota1, nota2, nota3, nota4, media;
+		Locale.setDefault(Locale.US);
 		
 		Scanner leia = new Scanner(System.in);
-		leia.useLocale(Locale.US);
 		
 		System.out.println("Insira a nota 1: ");
 		nota1 = leia.nextFloat();
