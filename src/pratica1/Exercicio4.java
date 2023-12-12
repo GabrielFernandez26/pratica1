@@ -23,6 +23,8 @@ public class Exercicio4 {
 		System.out.println("Inisira o quarto numero: ");
 		n4 = leia.nextFloat();
 		
+		leia.close();
+		
 		diferenca = (n1 * n2) - (n3 * n4);
 		
 		System.out.printf("Diferença: %.1f",diferenca);

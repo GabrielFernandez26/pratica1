@@ -11,7 +11,6 @@ public class Exercicio1 {
 		Locale.setDefault(Locale.US);
 		
 		Scanner leia = new Scanner(System.in);
-	
 		
 		System.out.println("Digite o Salário: ");
 		salario = leia.nextFloat();
@@ -19,9 +18,10 @@ public class Exercicio1 {
 		System.out.println("Digite o Abono: ");
 		abono = leia.nextFloat();
 		
+		leia.close();
+		
 		novoSalario = salario + abono;
 		System.out.printf("Novo salário é: %.2f",novoSalario);
-		
 	}
 
 }

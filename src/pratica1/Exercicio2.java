@@ -23,10 +23,11 @@ public class Exercicio2 {
 		System.out.println("Insira a nota 4: ");
 		nota4 = leia.nextFloat();
 		
+		leia.close();
+		
 		media = (nota1 + nota2 + nota3 + nota4)/4;
 		
 		System.out.printf("A média é: %.1f",media);
-
 	}
 
 }

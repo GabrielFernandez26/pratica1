@@ -23,6 +23,8 @@ public class Exercicio3 {
 		System.out.println("Insira os descontos: ");
 		descontos = leia.nextFloat();
 		
+		leia.close();
+		
 		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 
 		System.out.printf("Salário líquido: %.2f",salarioLiquido);
