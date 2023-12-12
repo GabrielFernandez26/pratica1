@@ -30,7 +30,7 @@ public class Exercicio4 {
 		if (!setNumeros.contains(num)) {
 			System.out.println("O número " + num + " não foi encontrado!");
 		} else {
-			System.out.println("O número " + num + " está localizado na posição: ");
+			System.out.println("O número " + num + " foi encontrado!");
 		}
 
 		leia.close();
